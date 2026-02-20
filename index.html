@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mirai School of Technology</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Mirai</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#admission">Admission</a></li>
+        <li><a href="#curriculum">Curriculum</a></li>
+        <li><a href="#fees">Fees</a></li>
+        <li><a href="#placements">Placements</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkToggle">🌙</button>
+</nav>
+
+<section id="home" class="hero">
+    <div>
+        <h1>Mirai School of Technology</h1>
+        <p>India’s AI-First Engineering College</p>
+        <a href="#admission" class="btn">Apply Now</a>
+    </div>
+</section>
+
+<section id="admission" class="section reveal">
+    <h2>Admission Process</h2>
+    <div class="cards">
+        <div class="card">Online Application</div>
+        <div class="card">Entrance Test</div>
+        <div class="card">Interview</div>
+        <div class="card">Final Selection</div>
+    </div>
+</section>
+
+<section id="curriculum" class="section dark-section reveal">
+    <h2>AI-First Curriculum</h2>
+    <div class="grid">
+        <div class="box"><h3>1st Year</h3><p>Python, Web Dev, C Programming</p></div>
+        <div class="box"><h3>2nd Year</h3><p>DSA, DBMS, AI Basics</p></div>
+        <div class="box"><h3>3rd Year</h3><p>ML, Cloud, Internships</p></div>
+        <div class="box"><h3>4th Year</h3><p>AI Projects, Startup Building</p></div>
+    </div>
+</section>
+
+<section id="fees" class="section reveal">
+    <h2>Fee Structure (Total ₹10,00,000)</h2>
+    <div class="fee-grid">
+        <div class="fee-card"><h3>1st Year</h3><p>₹2,50,000</p></div>
+        <div class="fee-card"><h3>2nd Year</h3><p>₹2,50,000</p></div>
+        <div class="fee-card"><h3>3rd Year</h3><p>₹2,50,000</p></div>
+        <div class="fee-card"><h3>4th Year</h3><p>₹2,50,000</p></div>
+    </div>
+</section>
+
+<section id="placements" class="section dark-section reveal">
+    <h2>Placement Partners</h2>
+    <div class="partners">
+        <span>Google</span>
+        <span>Microsoft</span>
+        <span>Amazon</span>
+        <span>TCS</span>
+        <span>Infosys</span>
+    </div>
+</section>
+
+<section id="contact" class="section reveal">
+    <h2>Contact Us</h2>
+    <p>Email: info@mirai.edu</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Location: Bangalore, India</p>
+</section>
+
+<footer>
+© 2026 Mirai School of Technology
+</footer>
+
+<!-- CHAT BOX -->
+<div class="chat-container">
+    <div class="chat-header">Mirai Assistant</div>
+    <div class="chat-body" id="chatBody"></div>
+    <div class="chat-input">
+        <input type="text" id="chatInput" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
